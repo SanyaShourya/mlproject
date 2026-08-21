@@ -40,7 +40,7 @@ class DataIngestion:
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path
             )
-        except Exception as p:
+        except Exception as e:
             raise CustomException(e,sys)
 
 if __name__=="__main__":
